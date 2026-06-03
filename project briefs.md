@@ -246,9 +246,9 @@
 | 고객 (누구를 위해) | AI를 활용하여 코딩을 하고자 하는 비개발자 (바이브코딩 사용자, AI 기반 프로토타이핑을 하는 학생·기획자·스타트업 등 토큰 개념 없이 LLM을 사용하는 사용자) |
 | Pain Point (해결할 문제) | ① 토큰 개념에 대한 이해 부족으로 인한 무의식적 비용 낭비 (바이브코딩 세션당 생성 코드의 30~40%가 폐기, 구조화 대비 3~4배 토큰 과소비) ② 개발 구조와 로직에 대한 이해 부족으로 인한 모호한 요구, 코드 통째 전송, 반복적 재프롬프팅 ③ 토큰과 모델별 가격 차이에 대한 인지 저조 |
 | 사용 기술 | tiktoken, Claude API (프롬프트 최적화 및 6개 카테고리 진단), 자체 설계 메타 프롬프트 |
-| 개발환경 | 1. Client 디바이스: PC (Windows, Mac) 2. FE: Next.js, React, TailwindCSS, TanStack Query 3. BE: FastAPI (Python) 4. AI/NLP 오픈소스: tiktoken, Claude API 6. 자체 개발 모듈: 6개 카테고리 메타 프롬프트 시스템, 카테고리별 가이드 사전, tiktoken 기반 Before/After 토큰 절감 시각화, 7개 모델 단가 테이블 기반 비용 계산 엔진 7. 배포: Vercel (프론트) + Railway (백엔드) |
-| 사용하는 소프트웨어 URL | tiktoken: https://github.com/openai/tiktoken Next.js: https://github.com/vercel/next.js FastAPI: https://github.com/tiangolo/fastapi |
-| 기대 효과 | ① 비개발자의 프롬프트 토큰 낭비를 시각화하여 인지시키고, 자동 최적화를 통해 평균 40% 이상의 토큰 절감 ② 모델별 비용 실시간 비교를 통해 동일 품질 대비 최저 비용 모델 선택 유도 ③ filler word 감지, 모호 표현 경고, 분할 제안 등 실시간 가이드를 통해 사용자의 프롬프트 작성 역량 자체를 향상 |
+| 개발환경 | 1. Client 디바이스: PC (Windows, Mac) 2. FE: Next.js, React, TailwindCSS 3. BE: FastAPI (Python) 4. AI/NLP 오픈소스: tiktoken, Claude API 6. 자체 개발 모듈: 6개 카테고리 메타 프롬프트 시스템, 카테고리별 가이드 사전, tiktoken 기반 Before/After 토큰 절감 시각화, 7개 모델 단가 테이블 기반 비용 계산 엔진 7. 배포: Vercel (프론트) + Railway (백엔드) |
+| 사용하는 소프트웨어 URL | tiktoken: https://github.com/openai/tiktoken Next.js: https://github.com/vercel/next.js FastAPI: https://github.com/tiangolo/fastapi React: https://github.com/facebook/react TailwindCSS: https://github.com/tailwindlabs/tailwindcss|
+| 기대 효과 | ① 비개발자의 프롬프트 토큰 낭비를 시각화하여 인지시키고, 자동 최적화를 통해 단기적/장기적인 토큰 절감 ② 모델별 비용 실시간 비교를 통해 동일 품질 대비 최저 비용 모델 선택 유도 ③ filler word 감지, 모호 표현 경고, 분할 제안 등 실시간 가이드를 통해 사용자의 프롬프트 작성 역량 자체를 향상 |
 | GitHub Repo | [https://github.com/0727n1122-beep/graduationproject](https://github.com/0727n1122-beep/graduationproject) |
 | Team Ground Rule | [Team Ground Rule](https://github.com/0727n1122-beep/graduationproject/blob/main/Team_Ground_Rule.md) |
 | 최종수정일 | 06.03 |
