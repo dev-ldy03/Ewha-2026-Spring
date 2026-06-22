@@ -80,7 +80,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | 검색 결과와 내부 지식이 충돌할 때: Preference Learning 기반 RAG 정렬 연구 (Conflict-Aware PA-RAG) |
+| 프로젝트명 | AI가 "알고 있는 것"과 "검색한 것"이 다를 때 어느 쪽을 믿어야 하는가 - RAG 환경에서 Knowledge Conflict에 대응하는 소형 LLM의 지식 선택 행동 제어 연구 |
 | 서비스명(브랜드) | Alltology |
 | 트랙 | 연구 |
 | 팀명 | Alltology |
